@@ -64,6 +64,10 @@ private slots:
 
     void on_pushButton_clicked();
 
+    bool isresult();
+
+    bool isMark1(char ch);
+
 private:
     Ui::MainWindow *ui;
 

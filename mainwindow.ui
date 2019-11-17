@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>240</width>
-    <height>400</height>
+    <width>410</width>
+    <height>350</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>240</width>
-    <height>400</height>
+    <height>100</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>240</width>
-    <height>400</height>
+    <width>1000</width>
+    <height>1000</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -32,17 +32,31 @@
    <widget class="QPushButton" name="pushButton_1">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>140</y>
-      <width>40</width>
-      <height>30</height>
+      <x>10</x>
+      <y>110</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>1</string>
@@ -52,30 +66,49 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>30</y>
-      <width>211</width>
-      <height>31</height>
+      <y>0</y>
+      <width>401</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-font: 10pt &quot;Agency FB&quot;;</string>
+     <string notr="true">QLineEdit{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:gray;
+	border:1px solid gray;
+	color:#7FFF00
+}
+</string>
     </property>
    </widget>
    <widget class="QPushButton" name="delepushButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>100</y>
-      <width>39</width>
-      <height>30</height>
+      <x>90</x>
+      <y>60</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>←</string>
@@ -84,36 +117,64 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>100</y>
-      <width>40</width>
-      <height>30</height>
+      <x>10</x>
+      <y>60</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
+    </property>
     <property name="text">
-     <string>C</string>
+     <string>AC</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>140</y>
-      <width>40</width>
-      <height>30</height>
+      <x>90</x>
+      <y>110</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>2</string>
@@ -122,17 +183,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>140</y>
-      <width>40</width>
-      <height>30</height>
+      <x>170</x>
+      <y>110</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>3</string>
@@ -141,17 +216,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>180</y>
-      <width>40</width>
-      <height>30</height>
+      <x>10</x>
+      <y>160</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>4</string>
@@ -160,17 +249,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>180</y>
-      <width>40</width>
-      <height>30</height>
+      <x>90</x>
+      <y>160</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>5</string>
@@ -179,17 +282,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>180</y>
-      <width>40</width>
-      <height>30</height>
+      <x>170</x>
+      <y>160</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>6</string>
@@ -198,17 +315,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>220</y>
-      <width>40</width>
-      <height>30</height>
+      <x>10</x>
+      <y>210</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>7</string>
@@ -217,17 +348,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_8">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>220</y>
-      <width>40</width>
-      <height>30</height>
+      <x>90</x>
+      <y>210</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>8</string>
@@ -236,17 +381,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_9">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>220</y>
-      <width>40</width>
-      <height>30</height>
+      <x>170</x>
+      <y>210</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>9</string>
@@ -255,17 +414,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_left">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>100</y>
-      <width>40</width>
-      <height>30</height>
+      <x>250</x>
+      <y>210</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>(</string>
@@ -274,17 +447,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_right">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>100</y>
-      <width>40</width>
-      <height>30</height>
+      <x>330</x>
+      <y>210</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>)</string>
@@ -293,17 +480,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_add">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>140</y>
-      <width>40</width>
-      <height>30</height>
+      <x>250</x>
+      <y>110</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>+</string>
@@ -312,17 +513,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_less">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>180</y>
-      <width>40</width>
-      <height>30</height>
+      <x>330</x>
+      <y>110</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>-</string>
@@ -331,17 +546,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_mul">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>220</y>
-      <width>40</width>
-      <height>30</height>
+      <x>250</x>
+      <y>160</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>*</string>
@@ -350,17 +579,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_exc">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>260</y>
-      <width>40</width>
-      <height>30</height>
+      <x>330</x>
+      <y>160</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>/</string>
@@ -369,17 +612,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_res">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>330</x>
       <y>260</y>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>%</string>
@@ -388,17 +645,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_dot">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>10</x>
       <y>260</y>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>.</string>
@@ -407,17 +678,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_0">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>90</x>
       <y>260</y>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>0</string>
@@ -426,11 +711,31 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_equal">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>300</y>
-      <width>91</width>
-      <height>31</height>
+      <x>170</x>
+      <y>260</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:#C0C0C0;
+	border:1px solid gray;
+	padding: 5px;
+	font: 75 36pt &quot;Kaiti SC&quot;;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>=</string>
@@ -439,20 +744,53 @@ font: 10pt &quot;Agency FB&quot;;</string>
    <widget class="QPushButton" name="pushButton_pow">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>300</y>
-      <width>40</width>
-      <height>30</height>
+      <x>250</x>
+      <y>260</y>
+      <width>80</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>40</width>
-      <height>30</height>
+      <width>80</width>
+      <height>50</height>
      </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:#FF8C00;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color:#A9A9A9;
+	border:1px solid gray;
+	padding: 5px;
+}</string>
     </property>
     <property name="text">
      <string>^</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	font: 28pt &quot;Andale Mono&quot;;
+	background-color:gray;
+	border:1px solid gray;
+	color:#7FFF00
+}
+</string>
     </property>
    </widget>
   </widget>
