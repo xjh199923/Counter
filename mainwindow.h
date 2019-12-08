@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include<QLabel>
 
 namespace Ui {
 class MainWindow;
@@ -64,13 +65,19 @@ private slots:
 
     void on_pushButton_clicked();
 
-    bool isresult();
+   void timerUpdate();
 
-    bool isMark1(char ch);
+   void on_pushButton_sin_clicked();
+
+   void on_pushButton_cos_clicked();
+
+   void on_pushButton_tan_clicked();
 
 private:
     Ui::MainWindow *ui;
-
+    QLabel  *statusLabel1;
+      QLabel  *statusLabel2;
+        QLabel  *statusLabel3;
       bool complete;//表达式是否计算完成
 };
 

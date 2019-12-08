@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 using namespace std;
-const int basesize = 40;
+const int basesize = 1000;
 template <class T>
 class Stack{
 	private:
@@ -19,7 +19,8 @@ class Stack{
 				creatStack(size);
 			}
 		}
-		~Stack(){delete []elements;}//析构函数，释放栈的空间
+        ~Stack()
+        {delete []elements;}//析构函数，释放栈的空间
 		
 		void creatStack(int n);//创建一个大小为n的栈，并为其动态分配空间
 		
